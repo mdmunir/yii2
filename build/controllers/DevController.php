@@ -27,28 +27,28 @@ class DevController extends Controller
     public $defaultAction = 'all';
 
     public $apps = [
-        'basic' => 'git@github.com:yiisoft/yii2-app-basic.git',
-        'advanced' => 'git@github.com:yiisoft/yii2-app-advanced.git',
+        'basic' => 'https://github.com/yiisoft/yii2-app-basic.git',
+        'advanced' => 'https://github.com/yiisoft/yii2-app-advanced.git',
     ];
 
     public $extensions = [
-        'apidoc' => 'git@github.com:yiisoft/yii2-apidoc.git',
-        'authclient' => 'git@github.com:yiisoft/yii2-authclient.git',
-        'bootstrap' => 'git@github.com:yiisoft/yii2-bootstrap.git',
-        'codeception' => 'git@github.com:yiisoft/yii2-codeception.git',
-        'composer' => 'git@github.com:yiisoft/yii2-composer.git',
-        'debug' => 'git@github.com:yiisoft/yii2-debug.git',
-        'elasticsearch' => 'git@github.com:yiisoft/yii2-elasticsearch.git',
-        'faker' => 'git@github.com:yiisoft/yii2-faker.git',
-        'gii' => 'git@github.com:yiisoft/yii2-gii.git',
-        'imagine' => 'git@github.com:yiisoft/yii2-imagine.git',
-        'jui' => 'git@github.com:yiisoft/yii2-jui.git',
-        'mongodb' => 'git@github.com:yiisoft/yii2-mongodb.git',
-        'redis' => 'git@github.com:yiisoft/yii2-redis.git',
-        'smarty' => 'git@github.com:yiisoft/yii2-smarty.git',
-        'sphinx' => 'git@github.com:yiisoft/yii2-sphinx.git',
-        'swiftmailer' => 'git@github.com:yiisoft/yii2-swiftmailer.git',
-        'twig' => 'git@github.com:yiisoft/yii2-twig.git',
+        'apidoc' => 'https://github.com/yiisoft/yii2-apidoc.git',
+        'authclient' => 'https://github.com/yiisoft/yii2-authclient.git',
+        'bootstrap' => 'https://github.com/yiisoft/yii2-bootstrap.git',
+        'codeception' => 'https://github.com/yiisoft/yii2-codeception.git',
+        'composer' => 'https://github.com/yiisoft/yii2-composer.git',
+        'debug' => 'https://github.com/yiisoft/yii2-debug.git',
+        'elasticsearch' => 'https://github.com/yiisoft/yii2-elasticsearch.git',
+        'faker' => 'https://github.com/yiisoft/yii2-faker.git',
+        'gii' => 'https://github.com/yiisoft/yii2-gii.git',
+        'imagine' => 'https://github.com/yiisoft/yii2-imagine.git',
+        'jui' => 'https://github.com/yiisoft/yii2-jui.git',
+        'mongodb' => 'https://github.com/yiisoft/yii2-mongodb.git',
+        'redis' => 'https://github.com/yiisoft/yii2-redis.git',
+        'smarty' => 'https://github.com/yiisoft/yii2-smarty.git',
+        'sphinx' => 'https://github.com/yiisoft/yii2-sphinx.git',
+        'swiftmailer' => 'https://github.com/yiisoft/yii2-swiftmailer.git',
+        'twig' => 'https://github.com/yiisoft/yii2-twig.git',
     ];
 
 
